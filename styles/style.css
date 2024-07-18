@@ -159,9 +159,22 @@ main{
     filter: brightness(70%);
 }
 
+.text-card{
+    margin: 3rem 0;
+}
+.text-card h3{
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+}
+.text-card p{
+    font-size: 1rem;
+    text-align: center;
+}
 .card-box1{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 1rem 0;
     gap: 1rem;
 }
 .row-1{
@@ -175,4 +188,38 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.card-box2{
+    display: grid;
+    grid-template-columns: 0.8fr 1.5fr 0.7fr;
+}
+.card-box3{
+    display: grid;
+    grid-template-columns: 0.75fr 1.25fr;
+}
+
+
+/* footer section start from here  */
+
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-p{
+    text-align: center;
+}
+.text-foot ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+hr{
+    text-align: center;
+}
+.copy{
+    text-align: center;
 }
