@@ -1,0 +1,178 @@
+
+
+
+*{
+    margin: 0;
+}
+.nav-container{
+    display: flex;
+    width: 90%;
+    margin: 5rem auto;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    /* width: 11rem; */
+}
+.logo img{
+    width: 3rem;
+    height: 3.5rem;
+    margin-right: 0.5rem;
+}
+.logo h2{
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    line-height: normal;
+}
+.nav-bar{
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.menu-bar ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+.menu-bar ul li{
+    list-style: none;
+}
+.menu-bar ul a{
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+span{
+    color: rgb(255, 84, 0);
+}
+
+/* Header banner style section  */
+
+.header-container h3{
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.header-container p{
+    text-align: center;
+    width: 676px;
+    color: rgb(241, 234, 234);
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    padding: 1.5rem;
+    margin: auto;
+}
+
+.header-container{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 1rem;
+    background-image: linear-gradient(180deg, rgba(19,19,24,0.8)0%, rgba(19,19,24,0)100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 7rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-div{
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255,0.2);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input-div input{
+     width: 10.8rem;
+     height: 3rem;
+     border-radius: 0.5rem;
+     border: none;
+     padding: 0 0.8rem;
+     margin: 0 1rem;
+     cursor: pointer;
+     font-size: 1rem;
+}
+.input-div select{
+    width: 10.8rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: none;
+    padding: 0 0.8rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.btn-primary{
+    width: 10.8rem;
+    height: 3rem;
+    color: rgb(236, 235, 235);
+    background-color: rgb(255, 84, 0);
+    border: rgb(255, 84, 0);
+    border-radius: 0.5rem;
+    padding: 0.7rem 1.2rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Start from here main section css code  */
+
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.popular-tour{
+    margin: 5rem 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 3rem;
+}
+.tour-text, .tour-text ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: space-between;
+}
+.tour-text h3{
+    font-size: 2.8rem;
+    font-weight: 800;
+}
+
+/* your destination card start here  */
+
+.card-box img{
+    width: 100%;
+    height: 18.80rem;
+    filter: brightness(70%);
+}
+
+.card-box1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+.row-1{
+    position: relative;
+}
+.country-name{
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
